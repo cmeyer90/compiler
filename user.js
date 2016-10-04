@@ -6,7 +6,7 @@ $(document).ready(function(){
 			type: 'POST',
 			url: 'http://api.hackerearth.com/code/compile/',
 			data: {
-				client_secret:'1a5359d8b8712bab25d8a50d35d2a323a24e6cea',
+				client_secret:'****',    //add your client secret here for testing
 				lang: $("#lang").val(),
 				source: $("#source").val(),
 			},
