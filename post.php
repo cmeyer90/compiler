@@ -1,5 +1,4 @@
 <?php
-
 //set up post data
 $post_data = 'client_secret=' . $_POST['client_secret'] . '&lang=' . $_POST['lang'] . '&source=' . urlencode($_POST['source']);
 
