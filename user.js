@@ -4,7 +4,7 @@ $(document).ready(function(){
 		console.log("1");
 		$.ajax({
 			type: 'POST',
-			url: 'http://api.hackerearth.com/code/compile/',
+			url: '/post.php',
 			data: {
 				client_secret:'****',    //add your client secret here for testing
 				lang: $("#lang").val(),
